@@ -1,75 +1,34 @@
-# MTR-Station-Decoration-Addon
+# MTR 车站装饰扩展（MSD）
 
-<h2>A Station Decoration Addon for the Minecraft Transit Railway Mod</h2>
+简体中文 · [English](./README.en.md)
 
-## Setup
+为 MTR 车站补充座椅、栏杆、指示设施及其他布景方块，适用于站厅、走廊、换乘区与站台。
 
-<h3>
-   1. Clone this repository
-</h3>
-<h3>
-   2. Switch a Minecraft version
-</h3>
-<h3>
-   3. Sync the Gradle project
-</h3>
+## 下载与安装
 
-## Link
+- 版本 · [v1.4.4-port.1+26.3](https://github.com/OpenRongMC/MSD/releases/tag/v1.4.4-port.1%2B26.3) (已发布)
+- 下载文件 · `rongmc-msd-1.4.4-port.1.26.3.jar`
+- 运行环境 · Minecraft Java 26.3, Fabric, Java 25
+- Fabric Loader · `>=0.19.3`
+- Fabric 模组 ID · `rongmc_msd`
+- JAR 声明的依赖 · [Fabric API](https://modrinth.com/mod/fabric-api), [`rongmc_mtr`](https://github.com/OpenRongMC/Minecraft-Transit-Railway) `4.0.5-port.1+26.3`
 
-<div id="source" class="image-t">
-   <a href="https://modrinth.com/mod/minecraft-transit-railway">
-      <img id="mtr" src="./image/logo.png" alt="Minecraft Transit Railway" width="128">
-   </a>
-   <a href="https://modrinth.com/mod/station-decoration">
-      <img id="msd" src="./fabric/src/main/resources/icon.png" alt="MTR-Station-Decoration-Addon" width="128">
-   </a>
-   <a href="https://www.zbx1425.cn/nautilus/mtr-nte/">
-      <img id="nte" src="./image/icon_nte.png" alt="Nemo's Transit Expansion" width="128">
-   </a>
-   <a href="https://discord.gg/PVZ2nfUaTW">
-      <img id="mtr_discord" src="./image/discord.png" alt="MTR Discord" width="128">
-   </a>
-</div>
+把发行 JAR 放入对应实例的 `mods/` 目录。在客户端和服务端安装相配的 MTR 与 MSD。即使只用装饰方块，联机仍需两端注册一致。
 
-## License
+## 如何验证
 
-[MIT License](https://raw.githubusercontent.com/AIDA64S/MTR-Station-Decoration-Addon/master/LICENSE)
+在创意标签中找一组站厅座椅和栏杆，放置后检查邻接、方向和可能的含水状态，再从第二个客户端核对显示。
 
-## Thanks
+## 开发
 
-<div id="jb_b" class="image-h">
-   <a href="https://www.jetbrains.com/code-with-me/">
-      <img id="code-with-me" src="./image/CodeWithMe.png" alt="Code With Me" width="1000">
-   </a>
-   <a href="https://www.jetbrains.com/idea/">
-      <img id="idea" src="./image/IntelliJ_IDEA.png" alt="Intellij IDEA" width="1000">
-   </a>
-</div>
-<div id="jb_t" class="image-container">
-   <a href="https://www.jetbrains.com" >
-      <img id="jb_beam" src="./image/jb_beam.png" alt="Jetbrains" width="300">
-   </a>
-   <a href="https://www.jetbrains.com/idea/" >
-      <img id="idea_icon" src="./image/IntelliJ_IDEA_icon.png" alt="Intellij IDEA" width="300">
-   </a>
-</div>
+与同一版本的 MTR 和平台映射一起联调。交通套件的 RongMC 发布构建使用 Java 25，应以配套工作区和发行 JAR 的元数据为准。
 
----
+## 文档与反馈
 
-## RongMC · Minecraft 26.3 Fabric 移植说明
+- [原 README（旧版指南、贡献者与署名）](https://github.com/OpenRongMC/MSD/blob/b1f76785a381dd8a7027aff02bcd63e8cb52d997/README.md)
+- [上游项目与文档](https://github.com/AIDA64S/MTR-Station-Decoration-Addon)
+- [报告 RongMC 移植问题](https://github.com/OpenRongMC/MSD/issues) · 请附游戏版本、两端 JAR 文件名、复现步骤和相关日志。
 
-本仓库是 RongMC 维护的 **Minecraft 26.3 / Fabric / Java 25** 移植构建，不是上游官方发行渠道。
+## 许可与署名
 
-### 与原版的主要差异
-- Minecraft 26.3 Fabric 移植；Fabric id `rongmc_msd`（provides `msd`）。
-- 依赖 `rongmc_mtr`。上游 README 的 MIT 说明保留作溯源；本发布仓许可证见 `LICENSE`（GPL-3.0）。
-
-### 已知问题 / 限制
-- 装饰向附属，功能随 MTR 核心版本；若核心 API 再变需要重新适配。
-- 含自有 HTTP/数据加载逻辑，服务端日志会出现 MSD server 相关输出属正常。
-
-### 构建与安装
-- Fabric mod id：`rongmc_msd`（`provides`：`msd`，旧依赖名一般仍可解析）
-- Release 产物见本仓库 Releases（jar 名带 `rongmc-` 前缀）
-- 许可证：本仓以 **GPL-3.0** 发布（见 `LICENSE`）；请同时尊重上游原作者条款与署名
-
+请参阅本仓库的 [LICENSE](./LICENSE) 及原项目的许可、署名和第三方资源说明。
