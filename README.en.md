@@ -1,34 +1,54 @@
-# MTR Station Decoration Addon (MSD)
+# MTR-Station-Decoration-Addon
 
 [简体中文](./README.md) · English
 
+
 Adds seating, railings, signage fixtures and other station decoration for MTR concourses, corridors, interchanges and platforms.
 
-## Download and installation
+## What changed in the RongMC 26.3 port
 
-- Version · [v1.4.4-port.1+26.3](https://github.com/OpenRongMC/MSD/releases/tag/v1.4.4-port.1%2B26.3) (Release)
-- Release asset · `rongmc-msd-1.4.4-port.1.26.3.jar`
-- Runtime · Minecraft Java 26.3, Fabric, Java 25
-- Fabric Loader · `>=0.19.3`
-- Fabric mod ID · `rongmc_msd`
-- Dependencies declared by the JAR · [Fabric API](https://modrinth.com/mod/fabric-api), [`rongmc_mtr`](https://github.com/OpenRongMC/Minecraft-Transit-Railway) `4.0.5-port.1+26.3`
+The port adapts block, item or vehicle-resource loading for Minecraft 26.3 and uses the matching MTR 4.0.5 interfaces. The addon retains its upstream theme and gameplay.
 
-Place the release JAR in the instance’s `mods/` directory. Install matching builds of MTR and MSD on the client and server. Decorative blocks still require matching registrations in multiplayer.
+## Installation
 
-## How to try it
+Download **v1.4.4-port.1+26.3** from [GitHub Releases](https://github.com/OpenRongMC/MSD/releases/tag/v1.4.4-port.1%2B26.3) for Minecraft Java **26.3** on **Fabric** with **Java 25**. Dependencies include [Fabric API](https://modrinth.com/mod/fabric-api), [MTR](https://github.com/OpenRongMC/Minecraft-Transit-Railway). Place the release JAR in the instance’s `mods/` directory. Install matching builds of MTR and MSD on the client and server. Decorative blocks still require matching registrations in multiplayer.
 
-Place a set of concourse seats and railings from creative inventory. Check placement, facing and any applicable waterlogging, then verify them from another client.
+## Link
 
-## Development
+<div id="source" class="image-t">
+   <a href="https://modrinth.com/mod/minecraft-transit-railway">
+      <img id="mtr" src="./image/logo.png" alt="Minecraft Transit Railway" width="128">
+   </a>
+   <a href="https://modrinth.com/mod/station-decoration">
+      <img id="msd" src="./fabric/src/main/resources/icon.png" alt="MTR-Station-Decoration-Addon" width="128">
+   </a>
+   <a href="https://www.zbx1425.cn/nautilus/mtr-nte/">
+      <img id="nte" src="./image/icon_nte.png" alt="Nemo's Transit Expansion" width="128">
+   </a>
+   <a href="https://discord.gg/PVZ2nfUaTW">
+      <img id="mtr_discord" src="./image/discord.png" alt="MTR Discord" width="128">
+   </a>
+</div>
 
-Develop and test alongside the matching MTR and platform mappings. The RongMC transport build uses Java 25. Use the coordinated workspace and release metadata when reproducing a release.
+## License
 
-## Documentation and support
+[MIT License](https://raw.githubusercontent.com/AIDA64S/MTR-Station-Decoration-Addon/master/LICENSE)
 
-- [Previous README (historical guide, contributors and credits)](https://github.com/OpenRongMC/MSD/blob/b1f76785a381dd8a7027aff02bcd63e8cb52d997/README.md)
-- [Upstream project and documentation](https://github.com/AIDA64S/MTR-Station-Decoration-Addon)
-- [Report a RongMC port issue](https://github.com/OpenRongMC/MSD/issues) · Include the game version, client and server JAR names, reproduction steps and relevant logs.
+## Thanks
 
-## License and credits
-
-See this repository’s [LICENSE](./LICENSE) and the original project’s license, credits and third-party asset notices.
+<div id="jb_b" class="image-h">
+   <a href="https://www.jetbrains.com/code-with-me/">
+      <img id="code-with-me" src="./image/CodeWithMe.png" alt="Code With Me" width="1000">
+   </a>
+   <a href="https://www.jetbrains.com/idea/">
+      <img id="idea" src="./image/IntelliJ_IDEA.png" alt="Intellij IDEA" width="1000">
+   </a>
+</div>
+<div id="jb_t" class="image-container">
+   <a href="https://www.jetbrains.com" >
+      <img id="jb_beam" src="./image/jb_beam.png" alt="Jetbrains" width="300">
+   </a>
+   <a href="https://www.jetbrains.com/idea/" >
+      <img id="idea_icon" src="./image/IntelliJ_IDEA_icon.png" alt="Intellij IDEA" width="300">
+   </a>
+</div>

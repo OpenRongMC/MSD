@@ -2,33 +2,53 @@
 
 简体中文 · [English](./README.en.md)
 
+
 为 MTR 车站补充座椅、栏杆、指示设施及其他布景方块，适用于站厅、走廊、换乘区与站台。
 
-## 下载与安装
+## RongMC 26.3 版本的改动
 
-- 版本 · [v1.4.4-port.1+26.3](https://github.com/OpenRongMC/MSD/releases/tag/v1.4.4-port.1%2B26.3) (已发布)
-- 下载文件 · `rongmc-msd-1.4.4-port.1.26.3.jar`
-- 运行环境 · Minecraft Java 26.3, Fabric, Java 25
-- Fabric Loader · `>=0.19.3`
-- Fabric 模组 ID · `rongmc_msd`
-- JAR 声明的依赖 · [Fabric API](https://modrinth.com/mod/fabric-api), [`rongmc_mtr`](https://github.com/OpenRongMC/Minecraft-Transit-Railway) `4.0.5-port.1+26.3`
+本版适配 Minecraft 26.3 的方块、物品或列车资源加载，并改用配套 MTR 4.0.5 的接口。扩展已有的主题和玩法沿用上游。
 
-把发行 JAR 放入对应实例的 `mods/` 目录。在客户端和服务端安装相配的 MTR 与 MSD。即使只用装饰方块，联机仍需两端注册一致。
+## 安装
 
-## 如何验证
+在 [GitHub Releases](https://github.com/OpenRongMC/MSD/releases/tag/v1.4.4-port.1%2B26.3) 下载 **v1.4.4-port.1+26.3**。使用 Minecraft Java **26.3**、**Fabric** 和 **Java 25**。 依赖 [Fabric API](https://modrinth.com/mod/fabric-api)、[MTR](https://github.com/OpenRongMC/Minecraft-Transit-Railway)。 将发行 JAR 放进实例的 `mods/` 目录。 在客户端和服务端安装相配的 MTR 与 MSD。即使只用装饰方块，联机仍需两端注册一致。
 
-在创意标签中找一组站厅座椅和栏杆，放置后检查邻接、方向和可能的含水状态，再从第二个客户端核对显示。
+## 相关链接
 
-## 开发
+<div id="source" class="image-t">
+   <a href="https://modrinth.com/mod/minecraft-transit-railway">
+      <img id="mtr" src="./image/logo.png" alt="Minecraft Transit Railway" width="128">
+   </a>
+   <a href="https://modrinth.com/mod/station-decoration">
+      <img id="msd" src="./fabric/src/main/resources/icon.png" alt="MTR-Station-Decoration-Addon" width="128">
+   </a>
+   <a href="https://www.zbx1425.cn/nautilus/mtr-nte/">
+      <img id="nte" src="./image/icon_nte.png" alt="Nemo's Transit Expansion" width="128">
+   </a>
+   <a href="https://discord.gg/PVZ2nfUaTW">
+      <img id="mtr_discord" src="./image/discord.png" alt="MTR Discord" width="128">
+   </a>
+</div>
 
-与同一版本的 MTR 和平台映射一起联调。交通套件的 RongMC 发布构建使用 Java 25，应以配套工作区和发行 JAR 的元数据为准。
+## 许可
 
-## 文档与反馈
+[MIT License](https://raw.githubusercontent.com/AIDA64S/MTR-Station-Decoration-Addon/master/LICENSE)
 
-- [原 README（旧版指南、贡献者与署名）](https://github.com/OpenRongMC/MSD/blob/b1f76785a381dd8a7027aff02bcd63e8cb52d997/README.md)
-- [上游项目与文档](https://github.com/AIDA64S/MTR-Station-Decoration-Addon)
-- [报告 RongMC 移植问题](https://github.com/OpenRongMC/MSD/issues) · 请附游戏版本、两端 JAR 文件名、复现步骤和相关日志。
+## 鸣谢
 
-## 许可与署名
-
-请参阅本仓库的 [LICENSE](./LICENSE) 及原项目的许可、署名和第三方资源说明。
+<div id="jb_b" class="image-h">
+   <a href="https://www.jetbrains.com/code-with-me/">
+      <img id="code-with-me" src="./image/CodeWithMe.png" alt="Code With Me" width="1000">
+   </a>
+   <a href="https://www.jetbrains.com/idea/">
+      <img id="idea" src="./image/IntelliJ_IDEA.png" alt="Intellij IDEA" width="1000">
+   </a>
+</div>
+<div id="jb_t" class="image-container">
+   <a href="https://www.jetbrains.com" >
+      <img id="jb_beam" src="./image/jb_beam.png" alt="Jetbrains" width="300">
+   </a>
+   <a href="https://www.jetbrains.com/idea/" >
+      <img id="idea_icon" src="./image/IntelliJ_IDEA_icon.png" alt="Intellij IDEA" width="300">
+   </a>
+</div>
